@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_moon/pages/home_page.dart';
 
 void main() {
   runApp(const App());
@@ -14,7 +15,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Color.fromRGBO(41, 41, 41, 1.0),
       ),
-      home: Scaffold(),
+      home: HomePage(),
     );
   }
 }
